@@ -1,0 +1,26 @@
+# IDE
+.idea/
+.vs/
+*.user
+*.suo
+
+# .NET
+bin/
+obj/
+*.nupkg
+
+# Secrets
+.env
+.env.*
+!.env.dev
+!.env.local
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vector store
+*.db
