@@ -1,0 +1,10 @@
+<Solution>
+    <Folder Name="/docs/">
+        <File Path="track-3-enterprise-agents/README.md"/>
+        <File Path="README.md"/>
+        <File Path="FILE-MAP.md"/>
+        <File Path="CLAUDE.md"/>
+    </Folder>
+    <Project Path="track-3-enterprise-agents/src/EnterpriseSupportAgent/EnterpriseSupportAgent.csproj"/>
+    <Project Path="track-3-enterprise-agents/src/SupportMcpServer/SupportMcpServer.csproj"/>
+</Solution>

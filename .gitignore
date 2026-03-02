@@ -14,6 +14,7 @@ obj/
 .env.*
 !.env.dev
 !.env.local
+!.env.example
 appsettings.*.json
 !appsettings.json
 !appsettings.Development.json
@@ -24,3 +25,4 @@ Thumbs.db
 
 # Vector store
 *.db
+discord-post.md

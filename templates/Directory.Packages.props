@@ -1,0 +1,23 @@
+<Project>
+  <Import Project="Version.props" />
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Azure -->
+    <PackageVersion Include="Azure.AI.OpenAI" Version="$(AzureAIOpenAIVersion)" />
+    <PackageVersion Include="Azure.Monitor.OpenTelemetry.AspNetCore" Version="$(AzureMonitorOpenTelemetryAspNetCoreVersion)" />
+    <!-- Microsoft Agents SDK -->
+    <PackageVersion Include="Microsoft.Agents.Authentication.Msal" Version="$(MicrosoftAgentsAuthenticationMsalVersion)" />
+    <PackageVersion Include="Microsoft.Agents.Hosting.AspNetCore" Version="$(MicrosoftAgentsHostingAspNetCoreVersion)" />
+    <PackageVersion Include="Microsoft.Agents.Storage.Blobs" Version="$(MicrosoftAgentsStorageBlobsVersion)" />
+    <!-- Microsoft Agents M365 Copilot Graph client -->
+    <PackageVersion Include="Microsoft.Agents.M365Copilot" Version="$(MicrosoftAgentsM365CopilotVersion)" />
+    <!-- OpenAI -->
+    <PackageVersion Include="OpenAI" Version="$(OpenAIVersion)" />
+    <!-- OpenTelemetry -->
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="$(OpenTelemetryInstrumentationHttpVersion)" />
+  </ItemGroup>
+</Project>

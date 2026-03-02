@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup Label="Package Versions">
+    <!-- Azure -->
+    <AzureAIOpenAIVersion>2.1.0</AzureAIOpenAIVersion>
+    <AzureMonitorOpenTelemetryAspNetCoreVersion>1.4.0</AzureMonitorOpenTelemetryAspNetCoreVersion>
+    <!-- Microsoft Agents SDK -->
+    <MicrosoftAgentsAuthenticationMsalVersion>1.4.83</MicrosoftAgentsAuthenticationMsalVersion>
+    <MicrosoftAgentsHostingAspNetCoreVersion>1.4.83</MicrosoftAgentsHostingAspNetCoreVersion>
+    <MicrosoftAgentsStorageBlobsVersion>1.4.83</MicrosoftAgentsStorageBlobsVersion>
+    <!-- Microsoft Agents M365 Copilot Graph client -->
+    <MicrosoftAgentsM365CopilotVersion>1.4.0</MicrosoftAgentsM365CopilotVersion>
+    <!-- OpenAI -->
+    <OpenAIVersion>2.9.0</OpenAIVersion>
+    <!-- OpenTelemetry -->
+    <OpenTelemetryInstrumentationHttpVersion>1.15.0</OpenTelemetryInstrumentationHttpVersion>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,81 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Support Ticket #${ticketId}",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "${title}",
+          "isSubtle": true,
+          "spacing": "None",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "spacing": "Medium",
+      "facts": [
+        {
+          "title": "Priority",
+          "value": "${priority}"
+        },
+        {
+          "title": "Status",
+          "value": "${status}"
+        },
+        {
+          "title": "Assigned To",
+          "value": "${assignee}"
+        },
+        {
+          "title": "Created",
+          "value": "${createdAt}"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "${description}",
+      "wrap": true,
+      "spacing": "Medium"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Escalate",
+      "verb": "escalateTicket",
+      "data": {
+        "ticketId": "${ticketId}"
+      }
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Close",
+      "verb": "closeTicket",
+      "data": {
+        "ticketId": "${ticketId}"
+      }
+    },
+    {
+      "type": "Action.Execute",
+      "title": "View Details",
+      "verb": "viewTicket",
+      "data": {
+        "ticketId": "${ticketId}"
+      }
+    }
+  ]
+}

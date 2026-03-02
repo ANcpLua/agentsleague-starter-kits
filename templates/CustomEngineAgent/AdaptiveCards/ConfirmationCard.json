@@ -1,0 +1,83 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "style": "warning",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "${title}",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "${description}",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "FactSet",
+      "spacing": "Medium",
+      "facts": [
+        { "title": "Requested by", "value": "${requestedBy}" },
+        { "title": "Date", "value": "${requestDate}" },
+        { "title": "Amount", "value": "${amount}" },
+        { "title": "Justification", "value": "${justification}" }
+      ]
+    },
+    {
+      "type": "Container",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Add a comment (optional)",
+          "weight": "Bolder",
+          "size": "Small"
+        },
+        {
+          "type": "Input.Text",
+          "id": "comment",
+          "placeholder": "Enter your feedback...",
+          "isMultiline": true,
+          "maxLength": 300
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Approve",
+      "data": {
+        "action": "approve",
+        "requestId": "${requestId}"
+      },
+      "style": "positive"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Reject",
+      "data": {
+        "action": "reject",
+        "requestId": "${requestId}"
+      },
+      "style": "destructive"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Request More Info",
+      "data": {
+        "action": "moreInfo",
+        "requestId": "${requestId}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="track-2-reasoning-agents/src/CertPrepAgents/CertPrepAgents.csproj" />
+  <Folder Name="/docs/">
+    <File Path="track-2-reasoning-agents/README.md" />
+    <File Path="track-2-reasoning-agents/self-observability-proposal.md" />
+    <File Path="README.md" />
+    <File Path="FILE-MAP.md" />
+    <File Path="CLAUDE.md" />
+  </Folder>
+</Solution>

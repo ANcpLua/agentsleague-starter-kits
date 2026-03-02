@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="track-1-creative-apps/src/CodeIntelligenceMcp/CodeIntelligenceMcp.csproj" />
+  <Folder Name="/docs/">
+    <File Path="track-1-creative-apps/README.md" />
+    <File Path="README.md" />
+    <File Path="FILE-MAP.md" />
+    <File Path="CLAUDE.md" />
+  </Folder>
+</Solution>

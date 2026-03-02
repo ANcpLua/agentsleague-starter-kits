@@ -1,0 +1,71 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Container",
+      "style": "attention",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Escalation Request",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Ticket #${ticketId} requires escalation to ${targetTeam}.",
+      "wrap": true,
+      "spacing": "Medium"
+    },
+    {
+      "type": "FactSet",
+      "spacing": "Medium",
+      "facts": [
+        {
+          "title": "Ticket",
+          "value": "#${ticketId}"
+        },
+        {
+          "title": "Reason",
+          "value": "${reason}"
+        },
+        {
+          "title": "Current Priority",
+          "value": "${priority}"
+        }
+      ]
+    },
+    {
+      "type": "Input.Text",
+      "id": "escalationNote",
+      "placeholder": "Add a note (optional)...",
+      "isMultiline": true,
+      "maxLength": 300
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Execute",
+      "title": "Approve Escalation",
+      "verb": "approveEscalation",
+      "data": {
+        "ticketId": "${ticketId}"
+      },
+      "style": "positive"
+    },
+    {
+      "type": "Action.Execute",
+      "title": "Reject",
+      "verb": "rejectEscalation",
+      "data": {
+        "ticketId": "${ticketId}"
+      },
+      "style": "destructive"
+    }
+  ]
+}

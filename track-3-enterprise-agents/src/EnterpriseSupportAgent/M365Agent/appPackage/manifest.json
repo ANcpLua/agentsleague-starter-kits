@@ -1,0 +1,72 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.22/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.22",
+  "version": "1.0.5",
+  "id": "${{TEAMS_APP_ID}}",
+  "developer": {
+    "name": "Enterprise Support Agent",
+    "websiteUrl": "https://github.com/ancplua/agentsleague-starter-kits",
+    "privacyUrl": "https://github.com/ancplua/agentsleague-starter-kits/blob/main/track-3-enterprise-agents/README.md#responsible-ai",
+    "termsOfUseUrl": "https://github.com/ancplua/agentsleague-starter-kits/blob/main/track-3-enterprise-agents/LICENSE"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "${{APP_DISPLAY_NAME}} ${{APP_NAME_SUFFIX}}",
+    "full": "Enterprise Support Agent — Multi-Agent IT Helpdesk for M365 Copilot"
+  },
+  "description": {
+    "short": "AI-powered IT support with connected agents, Adaptive Cards, and MCP integration",
+    "full": "Enterprise Support Agent is a multi-agent IT helpdesk that runs inside Microsoft 365 Copilot Chat. It uses three connected agents (Ticket, Knowledge, Notify) to handle support tickets, search an enterprise knowledge base, and send team notifications — all presented through rich Adaptive Cards."
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "${{BOT_ID}}",
+      "scopes": [ "copilot", "personal", "team", "groupChat" ],
+      "supportsFiles": false,
+      "isNotificationOnly": false,
+      "commandLists": [
+        {
+          "scopes": [ "copilot", "personal", "team", "groupChat" ],
+          "commands": [
+            {
+              "title": "Create a ticket",
+              "description": "Create a new IT support ticket"
+            },
+            {
+              "title": "Search knowledge base",
+              "description": "Find IT policies and procedures"
+            },
+            {
+              "title": "Notify the team",
+              "description": "Send a notification to the IT team"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "copilotAgents": {
+    "customEngineAgents": [
+      {
+        "id": "${{BOT_ID}}",
+        "type": "bot"
+      }
+    ]
+  },
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "${{BOT_DOMAIN}}",
+    "token.botframework.com"
+  ],
+  "webApplicationInfo": {
+    "id": "${{BOT_ID}}",
+    "resource": "api://${{BOT_DOMAIN}}/botid-${{BOT_ID}}"
+  }
+}

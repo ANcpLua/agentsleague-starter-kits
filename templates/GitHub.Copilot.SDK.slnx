@@ -1,0 +1,185 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="GitHub.Copilot.SDK/src/GitHub.Copilot.SDK.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="GitHub.Copilot.SDK/samples/Chat.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF1-FirstAgent/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/01_hello_agent/01_hello_agent.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/02_add_tools/02_add_tools.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/03_multi_turn/03_multi_turn.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/04_memory/04_memory.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/Agent_Step01_FunctionTools/Agent_Step01_UsingFunctionToolsWithApprovals.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/Agent_With_CustomImplementation/Agent_With_CustomImplementation.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/Agent_With_GitHubCopilot/Agent_With_GitHubCopilot.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/Agent_With_Ollama/Agent_With_Ollama.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/Agent_With_OpenAIChatCompletion/Agent_With_OpenAIChatCompletion.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF1-FirstAgent/Agent_With_OpenAIResponses/Agent_With_OpenAIResponses.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF2-DocumentSearch/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF2-DocumentSearch/BasicTextRAG/AgentWithRAG_Step01_BasicTextRAG.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF2-DocumentSearch/ChatHistoryMemory/AgentWithMemory_Step01_ChatHistoryMemory.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF2-DocumentSearch/CustomRAGDataSource/AgentWithRAG_Step03_CustomRAGDataSource.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF2-DocumentSearch/CustomVectorStoreRAG/AgentWithRAG_Step02_CustomVectorStoreRAG.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF3-VisionAnalysis/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF3-VisionAnalysis/AdditionalAIContext/Agent_Step17_AdditionalAIContext.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF3-VisionAnalysis/StructuredOutput/Agent_Step02_StructuredOutput.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF4-PolicySearch/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF4-PolicySearch/BasicSkills/Agent_Step01_BasicSkills.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF4-PolicySearch/DeepResearch/Agent_Step15_DeepResearch.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF4-PolicySearch/Plugins/Agent_Step12_Plugins.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/A2A/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/A2A/A2AClient/A2AClient.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/A2A/A2AServer/A2AServer.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/A2A/AsFunctionTools/A2AAgent_AsFunctionTools.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/A2A/PollingForTaskCompletion/A2AAgent_PollingForTaskCompletion.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AGUIClientServer/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUIClientServer/AGUIClient/AGUIClient.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUIClientServer/AGUIDojoServer/AGUIDojoServer.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUIClientServer/AGUIServer/AGUIServer.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AGUIWebChat/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUIWebChat/Client/AGUIWebChatClient.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUIWebChat/Server/AGUIWebChatServer.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AGUI_Step01_GettingStarted/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step01_GettingStarted/Client/Client.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step01_GettingStarted/Server/Server.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AGUI_Step02_BackendTools/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step02_BackendTools/Client/Client.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step02_BackendTools/Server/Server.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AGUI_Step03_FrontendTools/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step03_FrontendTools/Client/Client.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step03_FrontendTools/Server/Server.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AGUI_Step04_HumanInLoop/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step04_HumanInLoop/Client/Client.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step04_HumanInLoop/Server/Server.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AGUI_Step05_StateManagement/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step05_StateManagement/Client/Client.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AGUI/Step05_StateManagement/Server/Server.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/AgentWebChat/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AgentWebChat/AgentWebChat.AgentHost/AgentWebChat.AgentHost.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AgentWebChat/AgentWebChat.AppHost/AgentWebChat.AppHost.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AgentWebChat/AgentWebChat.ServiceDefaults/AgentWebChat.ServiceDefaults.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/AgentWebChat/AgentWebChat.Web/AgentWebChat.Web.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/Agent_With_A2A/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/Agent_With_A2A/Agent_With_A2A.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/DevUI/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/DevUI/DevUI_Step01_BasicUsage.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF5-Communication/HostedAgents/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/HostedAgents/AgentWithTextSearchRag/AgentWithTextSearchRag.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF5-Communication/HostedAgents/AgentsInWorkflows/AgentsInWorkflows.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/AgentOpenTelemetry/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/AgentOpenTelemetry/AgentOpenTelemetry.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/AsFunctionTool/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/AsFunctionTool/Agent_Step09_AsFunctionTool.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Checkpoint/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Checkpoint/CheckpointAndRehydrate/CheckpointAndRehydrate.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Checkpoint/CheckpointAndResume/CheckpointAndResume.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Checkpoint/CheckpointWithHumanInTheLoop/CheckpointWithHumanInTheLoop.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Concurrent/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Concurrent/Concurrent/Concurrent.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Concurrent/MapReduce/MapReduce.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/ConditionalEdges/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/ConditionalEdges/01_EdgeCondition/01_EdgeCondition.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/ConditionalEdges/02_SwitchCase/02_SwitchCase.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/ConditionalEdges/03_MultiSelection/03_MultiSelection.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Declarative/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/ConfirmInput/ConfirmInput.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/CustomerSupport/CustomerSupport.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/DeepResearch/DeepResearch.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/ExecuteCode/ExecuteCode.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/ExecuteWorkflow/ExecuteWorkflow.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/FunctionTools/FunctionTools.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/GenerateCode/GenerateCode.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/HostedWorkflow/HostedWorkflow.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/InputArguments/InputArguments.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/InvokeFunctionTool/InvokeFunctionTool.csproj" />
+
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/Marketing/Marketing.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/StudentTeacher/StudentTeacher.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Declarative/ToolApproval/ToolApproval.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/DeclarativeAgent/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/DeclarativeAgent/Agent_Step16_Declarative.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/DependencyInjection/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/DependencyInjection/Agent_Step06_DependencyInjection.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/FirstWorkflow/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/FirstWorkflow/05_first_workflow.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/HostYourAgent/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/HostYourAgent/06_host_your_agent.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/HumanInTheLoop/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/HumanInTheLoop/HumanInTheLoopBasic/HumanInTheLoopBasic.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Loop/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Loop/Loop.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Middleware/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Middleware/Agent_Step11_Middleware.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Observability/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Observability/AspireDashboard/AspireDashboard.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Observability/WorkflowAsAnAgent/WorkflowAsAnAgentObservability.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Observability_Agent/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Observability_Agent/Agent_Step05_Observability.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/SharedStates/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/SharedStates/SharedStates.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/Visualization/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/Visualization/Visualization.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/WorkflowAgents/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/WorkflowAgents/CustomAgentExecutors/CustomAgentExecutors.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/WorkflowAgents/GroupChatToolApproval/GroupChatToolApproval.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/WorkflowAgents/WorkflowAsAnAgent/WorkflowAsAnAgent.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF6-WorkIQ/_StartHere/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/_StartHere/01_Streaming/01_Streaming.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/_StartHere/02_AgentsInWorkflows/02_AgentsInWorkflows.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/_StartHere/03_AgentWorkflowPatterns/03_AgentWorkflowPatterns.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/_StartHere/04_MultiModelService/04_MultiModelService.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/_StartHere/05_SubWorkflows/05_SubWorkflows.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/_StartHere/06_MixedWorkflowAgentsAndExecutors/06_MixedWorkflowAgentsAndExecutors.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF6-WorkIQ/_StartHere/07_WriterCriticWorkflow/07_WriterCriticWorkflow.csproj" />
+  </Folder>
+  <Folder Name="/samples/BAF7-MCPTools/">
+    <Project Path="GitHub.Copilot.SDK/samples/BAF7-MCPTools/AgentWithHostedMCP/AgentWithHostedMCP.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF7-MCPTools/Agent_AsMcpTool/Agent_Step07_AsMcpTool.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF7-MCPTools/Agent_MCP_Server/Agent_MCP_Server.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF7-MCPTools/Agent_MCP_Server_Auth/Agent_MCP_Server_Auth.csproj" />
+    <Project Path="GitHub.Copilot.SDK/samples/BAF7-MCPTools/ResponseAgent_Hosted_MCP/ResponseAgent_Hosted_MCP.csproj" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="../README.md" />
+    <File Path="../FILE-MAP.md" />
+    <File Path="../CLAUDE.md" />
+  </Folder>
+</Solution>

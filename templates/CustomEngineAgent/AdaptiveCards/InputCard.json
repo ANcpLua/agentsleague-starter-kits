@@ -1,0 +1,99 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "${title}",
+      "weight": "Bolder",
+      "size": "Medium",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "${description}",
+      "isSubtle": true,
+      "wrap": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "Container",
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "${field1Label}",
+          "weight": "Bolder",
+          "size": "Small"
+        },
+        {
+          "type": "Input.ChoiceSet",
+          "id": "category",
+          "style": "compact",
+          "placeholder": "${field1Placeholder}",
+          "choices": [
+            { "title": "${choices[0].title}", "value": "${choices[0].value}" },
+            { "title": "${choices[1].title}", "value": "${choices[1].value}" },
+            { "title": "${choices[2].title}", "value": "${choices[2].value}" },
+            { "title": "${choices[3].title}", "value": "${choices[3].value}" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "${field2Label}",
+          "weight": "Bolder",
+          "size": "Small"
+        },
+        {
+          "type": "Input.Text",
+          "id": "details",
+          "placeholder": "${field2Placeholder}",
+          "isMultiline": true,
+          "maxLength": 500
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "${field3Label}",
+          "weight": "Bolder",
+          "size": "Small"
+        },
+        {
+          "type": "Input.Toggle",
+          "id": "urgent",
+          "title": "${field3Toggle}",
+          "value": "false"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit",
+      "data": {
+        "action": "userInput",
+        "formId": "${formId}"
+      },
+      "style": "positive"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Cancel",
+      "data": {
+        "action": "cancel",
+        "formId": "${formId}"
+      }
+    }
+  ]
+}

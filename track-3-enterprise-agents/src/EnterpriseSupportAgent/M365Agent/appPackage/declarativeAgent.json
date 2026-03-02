@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.4/schema.json",
+  "version": "v1.4",
+  "name": "${{APP_DISPLAY_NAME}}",
+  "description": "Custom engine agent with multi-agent orchestration, Adaptive Card UI, and MCP tool integration.",
+  "instructions": "$[file]instruction.txt",
+  "capabilities": [
+    {
+      "name": "WebSearch"
+    },
+    {
+      "name": "GraphicArt"
+    }
+  ],
+  "conversation_starters": [
+    { "text": "Create a high priority ticket for the VPN issue on floor 3" },
+    { "text": "What's the company policy on remote work equipment?" },
+    { "text": "Notify the network team about the Wi-Fi outage in Building B" },
+    { "text": "Show me my open support tickets" }
+  ]
+}

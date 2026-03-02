@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "code-intelligence": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": ["run", "--project", "."],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    }
+  }
+}

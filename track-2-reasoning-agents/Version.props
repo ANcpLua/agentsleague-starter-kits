@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup Label="Package Versions">
+    <!-- Microsoft Agents AI Framework -->
+    <MicrosoftAgentsAIVersion>1.0.0-preview.251219.1</MicrosoftAgentsAIVersion>
+    <MicrosoftAgentsAIDevUIVersion>1.0.0-preview.251219.1</MicrosoftAgentsAIDevUIVersion>
+    <MicrosoftAgentsAIHostingVersion>1.0.0-preview.251219.1</MicrosoftAgentsAIHostingVersion>
+    <MicrosoftAgentsAIHostingOpenAIVersion>1.0.0-alpha.251219.1</MicrosoftAgentsAIHostingOpenAIVersion>
+    <MicrosoftAgentsAIOpenAIVersion>1.0.0-preview.251219.1</MicrosoftAgentsAIOpenAIVersion>
+    <MicrosoftAgentsAIWorkflowsVersion>1.0.0-preview.251219.1</MicrosoftAgentsAIWorkflowsVersion>
+    <!-- OpenTelemetry -->
+    <OpenTelemetryExtensionsHostingVersion>1.11.2</OpenTelemetryExtensionsHostingVersion>
+    <OpenTelemetryExporterOtlpVersion>1.11.2</OpenTelemetryExporterOtlpVersion>
+  </PropertyGroup>
+</Project>
