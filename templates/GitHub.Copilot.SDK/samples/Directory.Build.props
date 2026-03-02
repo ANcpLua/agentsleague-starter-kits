@@ -1,0 +1,19 @@
+<Project>
+
+  <Import Project="../Directory.Build.props" />
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <UserSecretsId>5ee045b0-aea3-4f08-8d31-32d1a6f8fed0</UserSecretsId>
+    <NoWarn>$(NoWarn);MAAI001;MEAI001;OPENAI001</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="SampleHelpers.SampleEnvironment" Alias="Environment" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\..\src\Shared\Demos\*.cs" LinkBase="" Visible="false" />
+  </ItemGroup>
+
+</Project>

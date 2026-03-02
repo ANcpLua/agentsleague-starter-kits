@@ -1,0 +1,113 @@
+<Project>
+  <PropertyGroup>
+    <!-- GitHub Copilot SDK -->
+    <StreamJsonRpcVersion>2.24.84</StreamJsonRpcVersion>
+
+    <!-- Microsoft Agent Framework -->
+    <MicrosoftAgentsAIVersion>1.0.0-rc2</MicrosoftAgentsAIVersion>
+    <MicrosoftAgentsAIAbstractionsVersion>1.0.0-rc2</MicrosoftAgentsAIAbstractionsVersion>
+    <MicrosoftAgentsAIGitHubCopilotVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIGitHubCopilotVersion>
+    <MicrosoftAgentsAIOpenAIVersion>1.0.0-rc2</MicrosoftAgentsAIOpenAIVersion>
+    <MicrosoftAgentsAIHostingVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIHostingVersion>
+    <MicrosoftAgentsAIHostingOpenAIVersion>1.0.0-alpha.260225.1</MicrosoftAgentsAIHostingOpenAIVersion>
+    <MicrosoftAgentsAIHostingA2AVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIHostingA2AVersion>
+    <MicrosoftAgentsAIHostingA2AAspNetCoreVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIHostingA2AAspNetCoreVersion>
+    <MicrosoftAgentsAIHostingAGUIAspNetCoreVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIHostingAGUIAspNetCoreVersion>
+    <MicrosoftAgentsAIHostingAzureFunctionsVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIHostingAzureFunctionsVersion>
+    <MicrosoftAgentsAIA2AVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIA2AVersion>
+    <MicrosoftAgentsAIAGUIVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIAGUIVersion>
+    <MicrosoftAgentsAIDeclarativeVersion>1.0.0-rc2</MicrosoftAgentsAIDeclarativeVersion>
+    <MicrosoftAgentsAIDevUIVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIDevUIVersion>
+    <MicrosoftAgentsAIWorkflowsVersion>1.0.0-rc2</MicrosoftAgentsAIWorkflowsVersion>
+    <MicrosoftAgentsAIWorkflowsDeclarativeVersion>1.0.0-rc2</MicrosoftAgentsAIWorkflowsDeclarativeVersion>
+    <MicrosoftAgentsAIWorkflowsDeclarativeAzureAIVersion>1.0.0-rc2</MicrosoftAgentsAIWorkflowsDeclarativeAzureAIVersion>
+    <MicrosoftAgentsAIWorkflowsGeneratorsVersion>1.0.0-rc2</MicrosoftAgentsAIWorkflowsGeneratorsVersion>
+    <MicrosoftAgentsAIDurableTaskVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIDurableTaskVersion>
+    <MicrosoftAgentsAIAzureAIPersistentVersion>1.0.0-preview.260225.1</MicrosoftAgentsAIAzureAIPersistentVersion>
+    <!-- Not yet on NuGet - InvokeMcpTool sample will fail restore -->
+    <MicrosoftAgentsAIWorkflowsDeclarativeMcpVersion>1.0.0-rc2</MicrosoftAgentsAIWorkflowsDeclarativeMcpVersion>
+
+    <!-- Microsoft Extensions -->
+    <MicrosoftExtensionsAIVersion>10.3.0</MicrosoftExtensionsAIVersion>
+    <MicrosoftExtensionsAIAbstractionsVersion>10.3.0</MicrosoftExtensionsAIAbstractionsVersion>
+    <MicrosoftExtensionsAIOpenAIVersion>10.3.0</MicrosoftExtensionsAIOpenAIVersion>
+    <MicrosoftExtensionsLoggingAbstractionsVersion>10.0.3</MicrosoftExtensionsLoggingAbstractionsVersion>
+    <MicrosoftExtensionsHostingVersion>10.0.0</MicrosoftExtensionsHostingVersion>
+    <MicrosoftExtensionsDependencyInjectionVersion>10.0.0</MicrosoftExtensionsDependencyInjectionVersion>
+    <MicrosoftExtensionsLoggingVersion>10.0.0</MicrosoftExtensionsLoggingVersion>
+    <MicrosoftExtensionsLoggingConsoleVersion>10.0.0</MicrosoftExtensionsLoggingConsoleVersion>
+    <MicrosoftExtensionsConfigurationVersion>10.0.0</MicrosoftExtensionsConfigurationVersion>
+    <MicrosoftExtensionsConfigurationJsonVersion>10.0.0</MicrosoftExtensionsConfigurationJsonVersion>
+    <MicrosoftExtensionsConfigurationEnvironmentVariablesVersion>10.0.0</MicrosoftExtensionsConfigurationEnvironmentVariablesVersion>
+    <MicrosoftExtensionsConfigurationUserSecretsVersion>10.0.0</MicrosoftExtensionsConfigurationUserSecretsVersion>
+    <MicrosoftExtensionsCachingMemoryVersion>10.0.0</MicrosoftExtensionsCachingMemoryVersion>
+    <MicrosoftExtensionsServiceDiscoveryVersion>10.0.0</MicrosoftExtensionsServiceDiscoveryVersion>
+    <MicrosoftExtensionsVectorDataAbstractionsVersion>9.7.0</MicrosoftExtensionsVectorDataAbstractionsVersion>
+
+    <!-- OpenAI / Azure -->
+    <OpenAIVersion>2.8.0</OpenAIVersion>
+    <AzureAIOpenAIVersion>2.8.0-beta.1</AzureAIOpenAIVersion>
+    <AzureIdentityVersion>1.17.1</AzureIdentityVersion>
+    <AzureAIProjectsVersion>1.2.0-beta.5</AzureAIProjectsVersion>
+    <AzureAIAgentsPersistentVersion>1.2.0-beta.8</AzureAIAgentsPersistentVersion>
+    <GitHubCopilotSDKVersion>0.1.23</GitHubCopilotSDKVersion>
+    <OllamaSharpVersion>5.4.8</OllamaSharpVersion>
+
+    <!-- A2A / MCP -->
+    <A2AVersion>0.3.3-preview</A2AVersion>
+    <A2AAspNetCoreVersion>0.3.3-preview</A2AAspNetCoreVersion>
+    <ModelContextProtocolVersion>0.8.0-preview.1</ModelContextProtocolVersion>
+
+    <!-- Aspire -->
+    <AspireAppHostSdkVersion>13.0.2</AspireAppHostSdkVersion>
+
+    <!-- OpenTelemetry -->
+    <OpenTelemetryVersion>1.13.1</OpenTelemetryVersion>
+    <OpenTelemetryInstrumentationVersion>1.13.0</OpenTelemetryInstrumentationVersion>
+    <AzureMonitorOpenTelemetryExporterVersion>1.4.0</AzureMonitorOpenTelemetryExporterVersion>
+
+    <!-- Semantic Kernel -->
+    <SemanticKernelVersion>1.67.0</SemanticKernelVersion>
+    <SemanticKernelPreviewVersion>1.67.0-preview</SemanticKernelPreviewVersion>
+
+    <!-- Durable Task -->
+    <DurableTaskVersion>1.18.0</DurableTaskVersion>
+
+    <!-- Azure Functions -->
+    <AzureFunctionsWorkerVersion>2.50.0</AzureFunctionsWorkerVersion>
+    <AzureFunctionsWorkerExtDurableTaskVersion>1.11.0</AzureFunctionsWorkerExtDurableTaskVersion>
+    <AzureFunctionsWorkerExtHttpVersion>3.3.0</AzureFunctionsWorkerExtHttpVersion>
+    <AzureFunctionsWorkerExtHttpAspNetCoreVersion>2.1.0</AzureFunctionsWorkerExtHttpAspNetCoreVersion>
+    <AzureFunctionsWorkerExtMcpVersion>1.0.0</AzureFunctionsWorkerExtMcpVersion>
+    <AzureFunctionsWorkerSdkVersion>2.0.7</AzureFunctionsWorkerSdkVersion>
+
+    <!-- Workflows / ObjectModel -->
+    <MicrosoftAgentsObjectModelVersion>2026.2.4.1</MicrosoftAgentsObjectModelVersion>
+    <MicrosoftPowerFxInterpreterVersion>1.8.1</MicrosoftPowerFxInterpreterVersion>
+
+    <!-- ASP.NET Core -->
+    <MicrosoftAspNetCoreOpenApiVersion>10.0.0</MicrosoftAspNetCoreOpenApiVersion>
+    <SwashbuckleAspNetCoreSwaggerUIVersion>10.0.0</SwashbuckleAspNetCoreSwaggerUIVersion>
+
+    <!-- System -->
+    <SystemTextJsonVersion>10.0.3</SystemTextJsonVersion>
+    <SystemCommandLineVersion>2.0.0-rc.2.25502.107</SystemCommandLineVersion>
+    <SystemNetServerSentEventsVersion>10.0.3</SystemNetServerSentEventsVersion>
+    <MicrosoftBclAsyncInterfacesVersion>10.0.3</MicrosoftBclAsyncInterfacesVersion>
+
+    <!-- Anthropic / AWS -->
+    <AnthropicVersion>12.3.0</AnthropicVersion>
+    <AWSSDKExtensionsBedrockMEAIVersion>4.0.5.1</AWSSDKExtensionsBedrockMEAIVersion>
+
+    <!-- Aspire extras -->
+    <AspireAzureAIOpenAIVersion>13.0.0-preview.1.25560.3</AspireAzureAIOpenAIVersion>
+    <AspireHostingAzureCognitiveServicesVersion>13.0.2</AspireHostingAzureCognitiveServicesVersion>
+    <AspireMicrosoftAzureCosmosVersion>13.0.2</AspireMicrosoftAzureCosmosVersion>
+    <CommunityToolkitAspireOllamaSharpVersion>13.0.0</CommunityToolkitAspireOllamaSharpVersion>
+
+    <!-- Resilience -->
+    <MicrosoftExtensionsHttpResilienceVersion>10.0.0</MicrosoftExtensionsHttpResilienceVersion>
+    <MicrosoftExtensionsConfigurationBinderVersion>10.0.0</MicrosoftExtensionsConfigurationBinderVersion>
+    <AzureFunctionsWorkerExtDurableTaskAzureManagedVersion>1.0.1</AzureFunctionsWorkerExtDurableTaskAzureManagedVersion>
+  </PropertyGroup>
+</Project>

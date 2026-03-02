@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <Version>0.1.0</Version>
+        <Description>SDK for programmatic control of GitHub Copilot CLI</Description>
+        <Authors>GitHub</Authors>
+        <Company>GitHub</Company>
+        <Copyright>Copyright (c) Microsoft Corporation. All rights reserved.</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/github/copilot-sdk</RepositoryUrl>
+        <PackageTags>github;copilot;sdk;jsonrpc;agent</PackageTags>
+        <IsAotCompatible>true</IsAotCompatible>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.AI.Abstractions" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+        <PackageReference Include="StreamJsonRpc" PrivateAssets="compile" />
+    </ItemGroup>
+
+    <!-- Include build props/targets in package and import locally for dev -->
+    <ItemGroup>
+        <None Include="build\GitHub.Copilot.SDK.props" Pack="true" PackagePath="build\" />
+        <None Include="build\GitHub.Copilot.SDK.targets" Pack="true" PackagePath="build\" CopyToOutputDirectory="Never" />
+    </ItemGroup>
+    <Import Project="build\GitHub.Copilot.SDK.targets" />
+
+</Project>

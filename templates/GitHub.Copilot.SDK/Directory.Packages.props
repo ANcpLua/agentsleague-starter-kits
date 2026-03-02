@@ -1,0 +1,129 @@
+<Project>
+  <Import Project="Version.props" />
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- GitHub Copilot SDK (used by src/) -->
+    <PackageVersion Include="Microsoft.Extensions.AI.Abstractions" Version="$(MicrosoftExtensionsAIAbstractionsVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="$(MicrosoftExtensionsLoggingAbstractionsVersion)" />
+    <PackageVersion Include="StreamJsonRpc" Version="$(StreamJsonRpcVersion)" />
+
+    <!-- Microsoft Agent Framework -->
+    <PackageVersion Include="Microsoft.Agents.AI" Version="$(MicrosoftAgentsAIVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Abstractions" Version="$(MicrosoftAgentsAIAbstractionsVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.GitHub.Copilot" Version="$(MicrosoftAgentsAIGitHubCopilotVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.OpenAI" Version="$(MicrosoftAgentsAIOpenAIVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting" Version="$(MicrosoftAgentsAIHostingVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.OpenAI" Version="$(MicrosoftAgentsAIHostingOpenAIVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.A2A" Version="$(MicrosoftAgentsAIHostingA2AVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.A2A.AspNetCore" Version="$(MicrosoftAgentsAIHostingA2AAspNetCoreVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.AGUI.AspNetCore" Version="$(MicrosoftAgentsAIHostingAGUIAspNetCoreVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Hosting.AzureFunctions" Version="$(MicrosoftAgentsAIHostingAzureFunctionsVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.A2A" Version="$(MicrosoftAgentsAIA2AVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.AGUI" Version="$(MicrosoftAgentsAIAGUIVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Declarative" Version="$(MicrosoftAgentsAIDeclarativeVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.DevUI" Version="$(MicrosoftAgentsAIDevUIVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Workflows" Version="$(MicrosoftAgentsAIWorkflowsVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Workflows.Declarative" Version="$(MicrosoftAgentsAIWorkflowsDeclarativeVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Workflows.Declarative.AzureAI" Version="$(MicrosoftAgentsAIWorkflowsDeclarativeAzureAIVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Workflows.Generators" Version="$(MicrosoftAgentsAIWorkflowsGeneratorsVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.DurableTask" Version="$(MicrosoftAgentsAIDurableTaskVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.AzureAI.Persistent" Version="$(MicrosoftAgentsAIAzureAIPersistentVersion)" />
+    <PackageVersion Include="Microsoft.Agents.AI.Workflows.Declarative.Mcp" Version="$(MicrosoftAgentsAIWorkflowsDeclarativeMcpVersion)" />
+
+    <!-- Microsoft Extensions -->
+    <PackageVersion Include="Microsoft.Extensions.AI" Version="$(MicrosoftExtensionsAIVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.AI.OpenAI" Version="$(MicrosoftExtensionsAIOpenAIVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="$(MicrosoftExtensionsHostingVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="$(MicrosoftExtensionsDependencyInjectionVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Logging" Version="$(MicrosoftExtensionsLoggingVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="$(MicrosoftExtensionsLoggingConsoleVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="$(MicrosoftExtensionsConfigurationVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="$(MicrosoftExtensionsConfigurationJsonVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="$(MicrosoftExtensionsConfigurationEnvironmentVariablesVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.UserSecrets" Version="$(MicrosoftExtensionsConfigurationUserSecretsVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="$(MicrosoftExtensionsCachingMemoryVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="$(MicrosoftExtensionsServiceDiscoveryVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.VectorData.Abstractions" Version="$(MicrosoftExtensionsVectorDataAbstractionsVersion)" />
+
+    <!-- OpenAI / Azure -->
+    <PackageVersion Include="OpenAI" Version="$(OpenAIVersion)" />
+    <PackageVersion Include="Azure.AI.OpenAI" Version="$(AzureAIOpenAIVersion)" />
+    <PackageVersion Include="Azure.Identity" Version="$(AzureIdentityVersion)" />
+    <PackageVersion Include="Azure.AI.Projects" Version="$(AzureAIProjectsVersion)" />
+    <PackageVersion Include="Azure.AI.Agents.Persistent" Version="$(AzureAIAgentsPersistentVersion)" />
+    <PackageVersion Include="GitHub.Copilot.SDK" Version="$(GitHubCopilotSDKVersion)" />
+    <PackageVersion Include="OllamaSharp" Version="$(OllamaSharpVersion)" />
+
+    <!-- A2A / MCP -->
+    <PackageVersion Include="A2A" Version="$(A2AVersion)" />
+    <PackageVersion Include="A2A.AspNetCore" Version="$(A2AAspNetCoreVersion)" />
+    <PackageVersion Include="ModelContextProtocol" Version="$(ModelContextProtocolVersion)" />
+
+    <!-- Aspire -->
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(AspireAppHostSdkVersion)" />
+
+    <!-- OpenTelemetry -->
+    <PackageVersion Include="OpenTelemetry" Version="$(OpenTelemetryVersion)" />
+    <PackageVersion Include="OpenTelemetry.Api" Version="$(OpenTelemetryVersion)" />
+    <PackageVersion Include="OpenTelemetry.Exporter.Console" Version="$(OpenTelemetryVersion)" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="$(OpenTelemetryVersion)" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="$(OpenTelemetryVersion)" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="$(OpenTelemetryInstrumentationVersion)" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="$(OpenTelemetryInstrumentationVersion)" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="$(OpenTelemetryInstrumentationVersion)" />
+    <PackageVersion Include="Azure.Monitor.OpenTelemetry.Exporter" Version="$(AzureMonitorOpenTelemetryExporterVersion)" />
+
+    <!-- Semantic Kernel -->
+    <PackageVersion Include="Microsoft.SemanticKernel" Version="$(SemanticKernelVersion)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.Connectors.InMemory" Version="$(SemanticKernelPreviewVersion)" />
+    <PackageVersion Include="Microsoft.SemanticKernel.Connectors.Qdrant" Version="$(SemanticKernelPreviewVersion)" />
+
+    <!-- Durable Task -->
+    <PackageVersion Include="Microsoft.DurableTask.Client" Version="$(DurableTaskVersion)" />
+    <PackageVersion Include="Microsoft.DurableTask.Worker" Version="$(DurableTaskVersion)" />
+
+    <!-- Azure Functions -->
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker" Version="$(AzureFunctionsWorkerVersion)" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.ApplicationInsights" Version="$(AzureFunctionsWorkerVersion)" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.DurableTask" Version="$(AzureFunctionsWorkerExtDurableTaskVersion)" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="$(AzureFunctionsWorkerExtHttpVersion)" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="$(AzureFunctionsWorkerExtHttpAspNetCoreVersion)" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Mcp" Version="$(AzureFunctionsWorkerExtMcpVersion)" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="$(AzureFunctionsWorkerSdkVersion)" />
+
+    <!-- Workflows / ObjectModel -->
+    <PackageVersion Include="Microsoft.Agents.ObjectModel" Version="$(MicrosoftAgentsObjectModelVersion)" />
+    <PackageVersion Include="Microsoft.Agents.ObjectModel.Json" Version="$(MicrosoftAgentsObjectModelVersion)" />
+    <PackageVersion Include="Microsoft.Agents.ObjectModel.PowerFx" Version="$(MicrosoftAgentsObjectModelVersion)" />
+    <PackageVersion Include="Microsoft.PowerFx.Interpreter" Version="$(MicrosoftPowerFxInterpreterVersion)" />
+
+    <!-- ASP.NET Core -->
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="$(MicrosoftAspNetCoreOpenApiVersion)" />
+    <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerUI" Version="$(SwashbuckleAspNetCoreSwaggerUIVersion)" />
+
+    <!-- System -->
+    <PackageVersion Include="System.Text.Json" Version="$(SystemTextJsonVersion)" />
+    <PackageVersion Include="System.CommandLine" Version="$(SystemCommandLineVersion)" />
+    <PackageVersion Include="System.Net.ServerSentEvents" Version="$(SystemNetServerSentEventsVersion)" />
+    <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="$(MicrosoftBclAsyncInterfacesVersion)" />
+
+    <!-- Anthropic / AWS -->
+    <PackageVersion Include="Anthropic" Version="$(AnthropicVersion)" />
+    <PackageVersion Include="AWSSDK.Extensions.Bedrock.MEAI" Version="$(AWSSDKExtensionsBedrockMEAIVersion)" />
+
+    <!-- Aspire extras -->
+    <PackageVersion Include="Aspire.Azure.AI.OpenAI" Version="$(AspireAzureAIOpenAIVersion)" />
+    <PackageVersion Include="Aspire.Hosting.Azure.CognitiveServices" Version="$(AspireHostingAzureCognitiveServicesVersion)" />
+    <PackageVersion Include="Aspire.Microsoft.Azure.Cosmos" Version="$(AspireMicrosoftAzureCosmosVersion)" />
+    <PackageVersion Include="CommunityToolkit.Aspire.OllamaSharp" Version="$(CommunityToolkitAspireOllamaSharpVersion)" />
+
+    <!-- Resilience -->
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="$(MicrosoftExtensionsHttpResilienceVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="$(MicrosoftExtensionsConfigurationBinderVersion)" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.DurableTask.AzureManaged" Version="$(AzureFunctionsWorkerExtDurableTaskAzureManagedVersion)" />
+  </ItemGroup>
+</Project>

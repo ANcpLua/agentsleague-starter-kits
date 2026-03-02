@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+
+# Generated build props (contains CLI version)
+src/build/GitHub.Copilot.SDK.props
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*~
+
+# Rider
+.idea/
+
+# Test results
+TestResults/
