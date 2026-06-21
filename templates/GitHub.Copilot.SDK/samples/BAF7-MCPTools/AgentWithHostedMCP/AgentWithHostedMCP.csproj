@@ -43,7 +43,7 @@
 
   <!-- Add analyzers with compatible versions -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.100">
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.301">
       <PrivateAssets>all</PrivateAssets>
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
