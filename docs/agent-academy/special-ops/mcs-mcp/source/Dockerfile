@@ -1,4 +1,4 @@
-FROM node:22.12-alpine AS builder
+FROM node:22.12-alpine@sha256:51eff88af6dff26f59316b6e356188ffa2c422bd3c3b76f2556a2e7e89d080bd AS builder
 
 WORKDIR /app
 
@@ -11,7 +11,7 @@ RUN --mount=type=cache,target=/root/.npm npm install
 
 RUN npm run build
 
-FROM node:22-alpine AS release
+FROM node:22-alpine@sha256:ab07539e0988b63558ff621f5fbe1077054c39d9809112974fb79993949d41cd AS release
 
 WORKDIR /app
 
