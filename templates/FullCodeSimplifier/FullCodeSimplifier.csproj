@@ -15,7 +15,7 @@
   <ItemGroup>
     <PackageReference Include="Azure.AI.OpenAI" Version="2.8.0-beta.1" />
     <PackageReference Include="Azure.Identity" Version="1.18.0" />
-    <PackageReference Include="GitHub.Copilot.SDK" Version="0.1.29" />
+    <PackageReference Include="GitHub.Copilot.SDK" Version="0.3.0" />
     <PackageReference Include="Microsoft.Agents.AI" Version="1.10.0" />
     <PackageReference Include="Microsoft.Agents.AI.GitHub.Copilot" Version="1.10.0-rc1" />
     <PackageReference Include="Microsoft.Agents.AI.Hosting.AGUI.AspNetCore" Version="1.0.0-preview.260225.1" />
