@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="Azure.AI.OpenAI" Version="2.8.0-beta.1" />
-    <PackageReference Include="Azure.Identity" Version="1.18.0" />
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
     <PackageReference Include="GitHub.Copilot.SDK" Version="0.1.29" />
     <PackageReference Include="Microsoft.Agents.AI" Version="1.10.0" />
     <PackageReference Include="Microsoft.Agents.AI.GitHub.Copilot" Version="1.10.0-rc1" />
@@ -26,7 +26,7 @@
     <PackageReference Include="OpenTelemetry" Version="1.15.0" />
     <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.15.0" />
     <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.15.0" />
-    <PackageReference Include="System.ClientModel" Version="1.9.0" />
+    <PackageReference Include="System.ClientModel" Version="1.15.0" />
   </ItemGroup>
 
 </Project>
